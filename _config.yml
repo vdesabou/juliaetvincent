@@ -9,9 +9,9 @@
 title: Julia & Vincent
 description: > # this means to ignore newlines until "baseurl:"
   Le 23 Septembre 2017, Julia & Vincent vous invite à célébrer leur mariage.
-url: "http://www.juliaetvincent.ovh" # the base hostname & protocol for your site
+url: "http://juliaetvincent.ovh" # the base hostname & protocol for your site
 baseurl: ""
-absolute_url: "http://www.juliaetvincent.ovh"
+absolute_url: "http://juliaetvincent.ovh"
 form_email: "helmut.perchue@gmail.com"
 
 # Build settings
