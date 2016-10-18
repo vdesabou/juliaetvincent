@@ -1,0 +1,173 @@
+---
+layout: default
+---
+
+<header id="cover">
+    <nav class="site-header">
+      <ul>
+        <li><a href="#details">Détails</a></li>
+        <li><a href="#accommodations">Logements</a></li>
+<!--         <li><a href="#registry">Liste de Mariage</a></li> -->
+        <li><a href="#rsvp">RSVP</a></li>
+        <li><a href="/about">A propos de nous</a></li>
+      </ul>
+    </nav>
+
+	<div class="pull-right mobile-only">
+	    <a href="/about">A propos de nous</a>
+	</div>
+
+    <div class="cover-content">
+    	<div class="container">
+    		<div class="row">
+			    <div class="centered">
+			        <img src="{{ absolute_url }}/images/logo.png" width="200" height="200">
+			    </div><!-- .centered -->
+    		</div><!-- .row -->
+			<div class="row">
+			    <div class="eight columns offset-by-two centered">
+			    	<h2>Save the date!</h2>
+
+			    	<p>23 Septembre 2017 - Chateau d'Amécourt</p>
+			    </div>
+    		</div><!-- .row -->
+    	</div>
+    </div>
+</header><!-- #cover -->
+
+<div class="site-section" style="background-color: #EAF6F3">
+		<section id="details">
+		<h1>Le Jour J</h1>
+		<p class="blurb">Julia &amp; Vincent <br> ont le plaisir de vous convier.</p>
+		<div class="row" id="detail-widgets">
+			<div class="four columns widget">
+
+				<span class="widget-icon ceremony"></span>
+
+				<h2>Ceremonie</h2>
+
+				<div class="centered">
+					<p class="text-strong" style="font-size: 95%">Eglise d'Amécourt</p>
+					<p>Amécourt</p>
+					<p>16:30</p>
+					<i><a href="https://www.google.fr/maps/place/Chateau+d'Am%C3%A9court/@49.379841,1.7322783,17z/data=!3m1!4b1!4m5!3m4!1s0x47e7205bd65a2e11:0xb6b2f49ecb5bed68!8m2!3d49.379841!4d1.734467" target="_blank">Voir carte</a></i>
+				</div>
+			</div>
+			<div class="four columns widget">
+
+				<span class="widget-icon cocktail"></span>
+
+				<h2>Cocktail</h2>
+
+				<div class="centered">
+					<p class="text-strong">Chateau d'Amécourt</p>
+					<p>Amécourt</p>
+					<p>18:00</p>
+					<i><a href="https://www.google.fr/maps/place/Chateau+d'Am%C3%A9court/@49.379841,1.7322783,17z/data=!3m1!4b1!4m5!3m4!1s0x47e7205bd65a2e11:0xb6b2f49ecb5bed68!8m2!3d49.379841!4d1.734467" target="_blank">Voir carte</a></i>
+				</div>
+			</div>
+			<div class="four columns widget">
+
+				<span class="widget-icon reception"></span>
+
+				<h2>Reception</h2>
+
+				<div class="centered">
+					<p class="text-strong">Chateau d'Amécourt</p>
+					<p>Amécourt</p>
+					<p>20:00</p>
+					<i><a href="https://www.google.fr/maps/place/Chateau+d'Am%C3%A9court/@49.379841,1.7322783,17z/data=!3m1!4b1!4m5!3m4!1s0x47e7205bd65a2e11:0xb6b2f49ecb5bed68!8m2!3d49.379841!4d1.734467" target="_blank">Voir carte</a></i>
+				</div>
+			</div>
+		</div>
+	</section><!-- #details -->
+</div>
+
+
+
+<div class="site-section" style="background-color: #CBE8E0">
+	<section id="accommodations">
+		<h1>Logements</h1>
+		<p class="blurb">On a hate de vous retrouver <br> Réservez vite votre chambre pour pouvoir profiter de la soirée.</p>
+
+		<div class="where-to-stay">
+			<div class="row">
+				<div class="ten columns offset-by-one">
+					<h2>Où séjourner?</h2>
+
+					<p class="centered">Donec laoreet consectetur tortor sed convallis..</p>
+				</div>
+			</div>
+
+			<div class="row" id="reservations">
+				<div class="four columns offset-by-two">
+					<a href="https://citotel.fr/fr/hotel/445-citotel-le-saint-aubin-gournay-en-bray" target="_blank" class="btn-reserve">Reserver une chambre <br> Hôtel le Saint-Aubin</a>
+				</div>
+				<div class="four columns offset-by-one">
+					<a href="http://www.cartesfrance.fr/carte-france-ville/hotel_27010_Amecourt.html?checkin_monthday=23&checkin_year_month=2017-9&checkout_monthday=24&checkout_year_month=2017-9&dispo=1&type_hotels=on&type_chambres_hotes=on&type_appartements=on&type_autres=on&tri=proximite#liste-hotel-Amecourt" target="_blank" class="btn-reserve">Trouvez un gîte <br> aux alentours</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="what-to-do" style="display: none">
+			<div class="row">
+				<div class="ten columns offset-by-one">
+					<h2>Que faire à Amécourt?</h2>
+
+					<p class="centered">
+						blah blah
+					</p>
+				</div>
+			</div>
+		</div>
+	</section><!-- #accommodations -->
+</div>
+<div class="site-section" style="background-color: #EAF6F3">
+
+
+	<section id="rsvp">
+
+		<h1>Confirmation de présence</h1>
+		<p class="blurb">Dites nous si vous pouvez venir parmi nous</p>
+
+        <form id="contactform" method="POST">
+
+          <fieldset class="contact-info-group">
+
+<!--             <label><span>Votre Nom</span> -->
+            <input type="text" placeholder="Votre Nom" name="_name"></label>
+
+<!--             <label><span>Votre Email</span> -->
+            <input type="email" placeholder="Votre email" name="_replyto"></label>
+
+          </fieldset>
+
+<!--           <label><span>Qui vient avec vous?</span> -->
+          <textarea placeholder="Votre message" name="_message"></textarea></label>
+
+          <input type="hidden" name="_next" value="{{ site.url }}/form-success.html" />
+          <input type="text" name="_gotcha" style="display:none" />
+
+          <fieldset class="submit-wrap">
+            <input type="submit" value="Envoyer">
+          </fieldset>
+
+        </form>
+
+        <script>
+            var contactform =  document.getElementById('contactform');
+            contactform.setAttribute('action', '//formspree.io/' + 'helmut.perchue' + '@' + 'gmail' + '.' + 'com');
+        </script>
+
+	</section><!-- #rsvp -->
+</div>
+<div class="site-section" style="background-color: #CBE8E0">
+	<section id="registry">
+
+
+		<div class="text-strong">
+			<p class="blurb">Julia & Vincent</p>
+ 			<p class="blurb"><a href="https://www.instagram.com/explore/tags/juliaetvincent2017" class="text-strong" target="_blank">#juliaetvincent2017</a></p>
+		</div>
+	</section>
+</div>
