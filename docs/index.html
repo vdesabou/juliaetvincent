@@ -130,34 +130,24 @@ layout: default
 		<h1>Confirmation de présence</h1>
 		<p class="blurb">Dites nous si vous pouvez venir parmi nous</p>
 
-        <form id="contactform" method="POST">
+        <form id="contactform" method="POST" action="https://briskforms.com/go/3c146cc6f3232a78f3bd08794b054442">
 
-          <fieldset class="contact-info-group">
+<!--           <fieldset class="contact-info-group"> -->
 
-<!--             <label><span>Votre Nom</span> -->
             <input type="text" placeholder="Votre Nom" name="_name"></label>
-
-<!--             <label><span>Votre Email</span> -->
             <input type="email" placeholder="Votre email" name="_replyto"></label>
 
-          </fieldset>
+<!--           </fieldset> -->
 
 <!--           <label><span>Qui vient avec vous?</span> -->
           <textarea placeholder="Votre message" name="_message"></textarea></label>
 
-          <input type="hidden" name="_next" value="{{ site.url }}/form-success.html" />
-          <input type="text" name="_gotcha" style="display:none" />
 
-          <fieldset class="submit-wrap">
+<!--           <fieldset class="submit-wrap"> -->
             <input type="submit" value="Envoyer">
-          </fieldset>
+<!--           </fieldset> -->
 
         </form>
-
-        <script>
-            var contactform =  document.getElementById('contactform');
-            contactform.setAttribute('action', '//formspree.io/' + 'helmut.perchue' + '@' + 'gmail' + '.' + 'com');
-        </script>
 
 	</section><!-- #rsvp -->
 </div>
