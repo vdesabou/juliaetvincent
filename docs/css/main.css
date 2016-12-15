@@ -207,6 +207,9 @@ section {
   background-size: contain;
   background-position: center;
 }
+.widget-icon.chateau {
+  background-image: url(/images/widgets/chateau.png);
+}
 .widget-icon.ceremony {
   background-image: url(/images/widgets/ceremony.png);
 }
