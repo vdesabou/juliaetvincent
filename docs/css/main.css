@@ -207,9 +207,6 @@ section {
   background-size: contain;
   background-position: center;
 }
-.widget-icon.parking {
-  background-image: url(/images/widgets/parking.png);
-}
 .widget-icon.ceremony {
   background-image: url(/images/widgets/ceremony.png);
 }
