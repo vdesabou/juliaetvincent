@@ -213,6 +213,9 @@ section {
 .widget-icon.ceremony {
   background-image: url(/images/widgets/ceremony.png);
 }
+.widget-icon.church {
+  background-image: url(/images/widgets/church.png);
+}
 .widget-icon.cocktail {
   background-image: url(/images/widgets/cocktail.png);
 }
