@@ -42,9 +42,11 @@ $(function() {
 
 
   var $cover = $('header#cover');
-  var $about = $('header#about')
+  var $about = $('header#about');
+  var $map = $('header#map');
 
   if ( $cover.length > 0 ) setBackgroundImage($cover, '/images/intro-cover-large.png');
   if ( $about.length > 0 ) setBackgroundImage($about, '/images/about-cover-large.png');
+  if ( $map.length > 0 ) setBackgroundImage($map, '/images/map-cover-large.png');
 
 });

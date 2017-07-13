@@ -120,6 +120,13 @@ header#about {
   background-repeat: no-repeat;
   background-size: cover;
 }
+header#map {
+  background: url(/images/map-cover-small.png);
+  background-position: top center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* end vinc */
 header#form-success {
   background: url(/images/form-success-cover-small.png);
@@ -161,6 +168,26 @@ header#form-success {
   font-size: 78px;
 }
 .about-content p {
+  color: #000000;
+  font-size: 16px;
+  font-family: 'kepler-std-display', serif;
+  font-style: italic;
+  text-transform: inherit;
+}
+.map-content {
+  margin-top: -80px;
+}
+.map-content > .columns {
+  padding: 40px;
+  text-align: center;
+}
+.map-content h1 {
+  color: #689da4;
+  margin-bottom: 40px;
+  font-family: 'kepler-std-display', sans-serif;
+  font-size: 78px;
+}
+.map-content p {
   color: #000000;
   font-size: 16px;
   font-family: 'kepler-std-display', serif;
@@ -297,7 +324,7 @@ section#timeline {
 }
 section#timeline > .row {
   background-color: #EAF6F3;
-  padding: 80px 140px;
+  padding: 100px 140px;
 }
 section#timeline img {
   width: 100%;
