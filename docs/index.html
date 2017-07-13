@@ -7,9 +7,9 @@ layout: default
       <ul>
         <li><a href="#details">Détails</a></li>
         <li><a href="#accommodations">Logements</a></li>
-        <li><a href="#rsvp">RSVP</a></li>
-		<li><a href="/about">A propos de nous</a></li>
 		<li><a href="/map">Détails des lieux</a></li>
+		<li><a href="/about">A propos de nous</a></li>
+		<li><a href="#rsvp">Contact</a></li>
       </ul>
     </nav>
 
@@ -152,8 +152,8 @@ layout: default
 
 	<section id="rsvp">
 
-		<h1>Confirmation de présence</h1>
-		<p class="blurb">Dites nous si vous pouvez venir parmi nous</p>
+		<h1>Contact</h1>
+		<p class="blurb">Un mot à nous dire?</p>
 
 
 			<!--    using http://purecss.io/forms/ -->
@@ -163,21 +163,11 @@ layout: default
 
                     <form class="pure-form" method="POST" action="https://briskforms.com/go/3c146cc6f3232a78f3bd08794b054442">
                         <fieldset class="pure-group">
-                            <input id="first-name" class="pure-input-1-2" type="text" required placeholder="Votre Prénom" name="_prenom">
-                            <input id="last-name" class="pure-input-1-2" type="text" required placeholder="Votre Nom" name="_nom">
+                            <input id="first-name" class="pure-input-1-2" type="text" required placeholder="Qui êtes-vous?" name="_prenom">
                         </fieldset>
 
                         <fieldset class="pure-group">
-                            <label for="state">Nombre d'adultes</label>
-                            <select id="nb_adults" class="pure-input-1-4" name="_nb_adults">
-                                <option>0</option>
-                                <option>1</option>
-                                <option>2</option>
-                            </select>
-                        </fieldset>
-
-                        <fieldset class="pure-group">
-                            <textarea id="message" class="pure-input-1-2" rows="10" cols="30" placeholder="Un petit mot?" name="_message"></textarea>
+                            <textarea id="message" class="pure-input-1-2" rows="10" cols="30" placeholder="Message..." name="_message"></textarea>
                         </fieldset>
 
                         <button type="submit" class="pure-button"><i class="fa fa-envelope"></i>Envoyer</button>
