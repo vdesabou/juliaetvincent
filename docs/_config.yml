@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Le 23 Septembre 2017, Julia & Vincent vous invite à célébrer leur mariage.
 url: "http://juliaetvincent.ovh" # the base hostname & protocol for your site
 baseurl: ""
-absolute_url: "http://juliaetvincent.ovh"
+absolute_url: "https://juliaetvincent.ovh"
 
 # Build settings
 markdown: kramdown
